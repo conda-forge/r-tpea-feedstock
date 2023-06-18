@@ -1,11 +1,11 @@
-About r-tpea
-============
+About r-tpea-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tpea-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=TPEA
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tpea-feedstock/blob/main/LICENSE.txt)
 
 Summary: We described a novel Topology-based pathway enrichment analysis, which integrated the global position of the nodes and the topological property of the pathways in  Kyoto Encyclopedia of Genes and Genomes Database. We also provide some functions to obtain the latest information about pathways to finish pathway enrichment analysis using this method.
 
