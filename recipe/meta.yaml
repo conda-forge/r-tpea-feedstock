@@ -1,6 +1,5 @@
 {% set version = '3.1.0' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-tpea
@@ -13,8 +12,7 @@ source:
   sha256: de41b1b42499f88b3ea21309b9addbdbf6e1ba6da1a0c84f458d38df081eccfb
 
 build:
-  merge_build_host: True  # [win]
-  number: 3
+  number: 4
   noarch: generic
   rpaths:
     - lib/R/lib/
