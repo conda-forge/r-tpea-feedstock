@@ -1,4 +1,4 @@
-{% set version = '3.1.0' %}
+{% set version = "3.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/TPEA_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/TPEA/TPEA_{{ version }}.tar.gz
-  sha256: de41b1b42499f88b3ea21309b9addbdbf6e1ba6da1a0c84f458d38df081eccfb
+  sha256: 6a9334fe91ac416ef570aef9d780f9132e7927edf4e3b2cffa59b08f116a40a4
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -46,11 +46,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=TPEA
   license: GPL-2.0-only
-  summary: We described a novel Topology-based pathway enrichment analysis, which integrated
-    the global position of the nodes and the topological property of the pathways in  Kyoto
-    Encyclopedia of Genes and Genomes Database. We also provide some functions to obtain
-    the latest information about pathways to finish pathway enrichment analysis using
-    this method.
+  summary: We described a novel Topology-based pathway enrichment analysis, which integrated the global position of the nodes and the topological property of the pathways in  Kyoto Encyclopedia of Genes and Genomes Database. We also provide some functions to obtain the latest information about pathways to finish 
+    pathway enrichment analysis using this method.
   license_family: GPL2
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
